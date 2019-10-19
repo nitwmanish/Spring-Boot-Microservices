@@ -2,15 +2,15 @@
 
 There are 3 microservices
 
-## movie-ratings-data-service :- provide rest apis to get all movies, review and rating given by user
+## movie-ratings-data-service :- provide rest apis to get all movies, reviews and ratings given by user
 
 http://localhost:11001/ratingsdata/users  --> Get all usres
 
-http://localhost:11001/ratingsdata/users/{userId} --> Get all movies, review and rating given by user
+http://localhost:11001/ratingsdata/users/{userId} --> Get all movies, reviews and ratings given by user
 
 http://localhost:11001/ratingsdata/movies/{movieId} --> Get all users, who given rating and review to the given movie
 
-## movie-info-service :- provide rest apis to get movies dtails
+## movie-info-service :- provide rest apis to get movie's details
 
 http://localhost:10001/movies --> Get details of all movies
 
