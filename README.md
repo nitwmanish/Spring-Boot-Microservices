@@ -21,9 +21,9 @@ http://localhost:10001/movies/{movieId} --> Get details of movie by movieId
 
 http://localhost:9001/catalog/{userId} --> get combine result about movie and user's rating and review about movie
 
-## Hystrix (Circuit breaker)
+## Hystrix (Circuit Breaker)
 http://localhost:9001/hystrix
 
-## Eureka server (Service Discovery)
+## Eureka Server (Service Discovery)
 movie-discovery-server
 http://localhost:8761/
