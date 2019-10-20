@@ -17,7 +17,9 @@ http://localhost:10001/movies --> Get details of all movies
 http://localhost:10001/movies/{movieId} --> Get details of movie by movieId
 
 
-## movie-catalog-service :- This service talk to both service and get the data from both microservices(movie-ratings-data-service & movie-info-service) and return consolidated result to the user. This service return movies info and user's rating and review for those movies which user has given rating or written review
+## movie-catalog-service :- This service talk to both service and get the data from both microservices(movie-ratings-data-service & movie-info-service) and return consolidated result to the user. 
+
+This service return movies info and user's rating and review for those movies which user has given rating or written review
 
 http://localhost:9001/catalog/{userId} --> get combine result of movies details and user's rating and review about movies
 
